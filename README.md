@@ -95,18 +95,6 @@ ecommerce-ml-project/
 └── docs/
 ```
 
-## 6. Confidentiality & Security
-
-Do not upload:
-
-* Confidential datasets or customer information
-* Proprietary source code
-* API keys, passwords, or credentials
-* Internal architecture or documents
-* Confidential screenshots or model results
-* Private deployment or tunnel URLs
-
-Use `.env` locally for secrets and exclude it through `.gitignore`.
 
 
 ## 8. Required Libraries
@@ -128,6 +116,4 @@ Install all dependencies with:
 
 ```bash
 pip install -r requirements.txt
-```
 
-The `requirements.txt` file should contain the versions of the libraries used by the project.
